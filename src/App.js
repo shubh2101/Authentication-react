@@ -6,7 +6,6 @@ import AuthPage from "./pages/AuthPage";
 import HomePage from "./pages/HomePage";
 import AuthContext from "./store/auth-context";
 import { useContext } from "react";
-import AuthForm from "./components/Auth/AuthForm";
 
 function App() {
   const authCtx = useContext(AuthContext);
